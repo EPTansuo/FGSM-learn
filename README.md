@@ -1,4 +1,4 @@
-# 学习FGSM
+# 学习FGSM(Fast Gradient Sign Method)
 
 Classify文件夹内实现了一个分类识别的神经网络，训练完成后得到权重文件才可进行FGSM攻击。
 
@@ -8,7 +8,11 @@ attack文件夹中有FGSM的实现，可运行代码查看效果
 :-------------------------:|:-------------------------:
 ![](img/before.svg)  |![](img/after.svg)
 
+除了有FGSM的实现，代码还实现了iFGSM，即多次迭代FGSM。
 
+FGSM          |  iFGSM（迭代10次）
+:-------------------------:|:-------------------------:
+![](img/after.svg)  |![](img/iter_after.svg)
 
 
 ## 参考：
