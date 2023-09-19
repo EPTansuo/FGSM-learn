@@ -1,0 +1,5 @@
+__pycache__
+Classify/data/
+Classify/*.pth
+*.pth
+.ipynb_checkpoints
