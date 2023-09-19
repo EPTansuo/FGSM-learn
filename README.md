@@ -15,7 +15,7 @@ attack文件夹中有FGSM的实现，可运行代码查看效果
 
 [https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 
-[https://colab.research.google.com/github/ashishpatel26/Awesome-Pytorch-Tutorials/blob/main/17.Pytorch%20Transfer%20learning%20with%20Caltech101.ipynb](https://colab.research.google.com/github/ashishpatel26/Awesome-Pytorch-Tutorials/blob/main/17.Pytorch Transfer learning with Caltech101.ipynb)
+[https://colab.research.google.com/github/ashishpatel26/Awesome-Pytorch-Tutorials/blob/main/17.Pytorch Transfer learning with Caltech101.ipynb](https://colab.research.google.com/github/ashishpatel26/Awesome-Pytorch-Tutorials/blob/main/17.Pytorch%20Transfer%20learning%20with%20Caltech101.ipynb)
 
 [https://github.com/Harry24k/FGSM-pytorch](https://github.com/Harry24k/FGSM-pytorch)
 
