@@ -42,9 +42,9 @@ $$
 ### iFGSM原理
 
 $$
-x^{(0)}=x^{n}
+x^{(0)}=x
 
-\\x^{(i+l)}=\mathrm{Clip}_{x,\epsilon}\left(x^{(i)}+\epsilon\cdot\mathrm{sign}(\nabla_{x}J(\theta,x^{(i)},y))\right)
+\\x^{(i+1)}=\mathrm{Clip}_{x,\epsilon}\left(x^{(i)}+\epsilon\cdot\mathrm{sign}(\nabla_{x}J(\theta,x^{(i)},y))\right)
 $$
 
 ### 有目标的FGSM实现原理
