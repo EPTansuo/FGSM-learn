@@ -49,16 +49,16 @@ $$
 对于无目标FGSM，我们的想法是：
 
 $$
-\operatorname{maxmize}~J(\theta,x^{\prime},y), \quad~\text{s.t.}~\|x^{\prime}-x\|_{\infty} < \epsilon,
+\mathrm{maxmize}~J(\theta,x^{\prime},y), \quad~\text{s.t.}~\|x^{\prime}-x\|_{\infty} < \epsilon,
 $$
 
 而对于有目标的FGSM，我们的想法则是：
 
 $$
-\operatorname{minimize }~J(\theta,x^{\prime},y^{\prime}),\quad\text{s.t.}~\|x^{\prime}-x\|_{\infty} < \epsilon
+\mathrm{minimize }~J(\theta,x^{\prime},y^{\prime}),\quad\text{s.t.}~\|x^{\prime}-x\|_{\infty} < \epsilon
 $$
 
-其中，$x~$为原始图像，$x^{\prime}~$为对抗攻击后的图像，$y~$为真实的标签，$y^{\prime}~$为对抗攻击中的目标标签。
+其中，$x$ 为原始图像，$x^{\prime}$ 为对抗攻击后的图像，$y$ 为真实的标签，$y^{\prime}$ 为对抗攻击中的目标标签。
 
 所以它的实现公式为：
 
