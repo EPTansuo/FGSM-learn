@@ -1,6 +1,8 @@
 # 学习FGSM(Fast Gradient Sign Method)
 
-注：Github渲染公式不正常，建议下载仓库中的pdf进行查看。
+$$
+\boxed{注：\text{Github}渲染公式不正常，建议下载仓库中的\text{pdf}进行查看。}
+$$
 
 Classify文件夹内实现了一个分类识别的神经网络，训练完成后得到权重文件才可进行FGSM攻击。
 
