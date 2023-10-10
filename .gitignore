@@ -3,3 +3,5 @@ Classify/data/
 Classify/*.pth
 *.pth
 .ipynb_checkpoints
+.virtual_documents
+
